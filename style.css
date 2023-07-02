@@ -1,0 +1,130 @@
+
+    /* CSS */
+.btn1 {
+    appearance: none;
+      backface-visibility: hidden;
+      background-color: #27ae60;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 13px 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+      margin-right: 10px;
+
+  }
+  
+  .btn1:hover {
+    background-color: #1e8449;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+  }
+  
+  .btn1:active {
+    transform: translateY(2px);
+      transition-duration: .35s;
+  }
+  
+  .btn1:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.inputZone1 {
+    width: 15%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .inputZone2 {
+    width: 15%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .btn2 {
+    appearance: none;
+      backface-visibility: hidden;
+      background-color: #27ae60;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 13px 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+  }
+  
+  .btn2:hover {
+    background-color: #1e8449;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+  }
+  
+  .btn2:active {
+    transform: translateY(2px);
+      transition-duration: .35s;
+  }
+  
+  .btn2:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+.container{
+margin-left: 30px;  
+}
+
+h1{
+  margin-left: 30px;
+}

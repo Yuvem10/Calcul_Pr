@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <title>Calculateur de PR</title>
+</head>
+
+<h1>Calcule ton 1 RM</h1>
+
+<body>
+<div class="input1">
+    <input class="inputZone1" placeholder="Poids utilisé" id="weight" type="number">
+    <input class="inputZone2"  placeholder="Nombre de répétitions (max 10)" id="reps" type="number">
+</div>
+
+<div class="container">
+    <button class="btn1" onclick="getTotalWeight()">Calculer</button>
+    <button class="btn2" onclick="clearAllCases()">Effacer</button>
+</div>
+<div class="final" id="phrase"></div>
+
+</body>
+
+</html> 
